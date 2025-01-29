@@ -14,14 +14,12 @@ Key Features
 
 🛠 How to Run Locally
 
-1️⃣ Clone the Repository
-
-git clone 
-cd mlops-mnist-deployment
-
-2️⃣ Build and Run the Docker Container
+1️⃣  Build and Run the Docker Container
 
 docker build -t mlops-mnist:latest .
 docker run -p 80:80 mlops-mnist:latest
 
-3️⃣ Test the API using cURL
+2️⃣ Test the API using cURL
+
+curl -X POST "http://localhost:80/predict/" -H "Content-Type: application/json" -d @input.json
+
