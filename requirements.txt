@@ -1,0 +1,13 @@
+# Core Libraries
+numpy==1.23.5
+pandas==2.0.3
+scikit-learn==1.2.2
+joblib==1.2.0
+
+# FastAPI and Web Server
+fastapi==0.103.2
+uvicorn==0.22.0
+
+# Additional Utilities
+python-multipart==0.0.6
+pydantic==2.5.3
